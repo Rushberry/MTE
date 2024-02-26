@@ -1,6 +1,237 @@
-<!Doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>M/S. TITHY ENTERPRISE</title>
+    <link rel="icon" href="assets/MS. TITHY ENTERPRISE.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
   <body>
-    <h1>Page is under development</h1>
+    <nav id="desktop-nav">
+      <div class="logo">M/S. TITHY ENTERPRISE</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#service">Services</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">M/S. TITHY ENTERPRISE</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About Us</a></li>
+          <li><a href="#service" onclick="toggleMenu()">Services</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact Us</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/MS. TITHY ENTERPRISE.png" alt="M/S. TITHY ENTERPRISE"/>
+      </div>
+      <div class="section__text">
+        <h1 class="title">M/S. TITHY ENTERPRISE</h1>
+        <p class="section__text__p1">Construction & Suppliers</p> <br>
+        <div class="btn-container">
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+      </div>
+    </section>
+    
+    <section id="experience">
+      <p class="section__text__p1">Get to Know More</p>
+      <h1 class="title">About Us</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Our Company</h2>
+            <div class="article-container">
+                <div class="text-container">
+                    <p style="text-align: justify; color: black;">Established over 30 years ago, M/S. TITHY ENTERPRISE is a leading player in the construction and supplies industry. With a strong track record serving both national and multinational companies, we deliver quality, reliability, and innovation in every project. Partner with us for unmatched expertise and a commitment to excellence.</p>
+                </div>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Our Details</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3 onclick="window.open('https://www.batabd.com/', '_blank')" style="cursor: pointer;">Trade Licence</h3>
+                  <p>Up to date</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3 onclick="window.open('https://bdrcs.org/', '_blank')" style="cursor: pointer;">Vat Certificate</h3>
+                  <p>Up to date</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3 onclick="window.open('https://www.vercbd.org/', '_blank')" style="cursor: pointer;">TIN Certificate</h3>
+                  <p>Up to date</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3 onclick="window.open('https://bpdb.gov.bd/', '_blank')" style="cursor: pointer;">DBID Certificate</h3>
+                  <p>Under Processing</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    
+    <section id="experience">
+      <p class="section__text__p1">Get to Know More</p>
+      <h1 class="title">Services</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Offered Services</h2>
+            <div class="article-container">
+                <div class="text-container">
+                    <p style="text-align: justify; color: black;">M/S. TITHY ENTERPRISE offers a diverse range of services to meet your construction and supply needs. From all types of construction works to comprehensive supplier solutions, including mobile applications, painting, interior design, and dress supply, we provide unparalleled expertise and reliability. Partner with us for all-encompassing solutions tailored to your requirements.</p>
+                </div>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Enlisted Companies</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3 onclick="window.open('https://www.batabd.com/', '_blank')" style="cursor: pointer;">Bata</h3>
+                  <p>Bangladesh</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3 onclick="window.open('https://bdrcs.org/', '_blank')" style="cursor: pointer;">BDRCS</h3>
+                  <p>Bangladesh</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3 onclick="window.open('https://www.vercbd.org/', '_blank')" style="cursor: pointer;">VERC</h3>
+                  <p>Bangladesh</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3 onclick="window.open('https://bpdb.gov.bd/', '_blank')" style="cursor: pointer;">BPDB</h3>
+                  <p>Bangladesh</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title-c">Contact Us</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:info.tithyenterprise@gmail.com">info.tithyenterprise@gmail.com</a></p>
+        </div>
+      </div>
+      <div class="contact-info-upper-container" class="up">
+        <div class="contact-info-container">
+          <img
+            src="./assets/phone.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="tel:+8801711467185">01711467185</a></p>
+          <!--<a href="https://www.freepik.com/icons/phone">Icon by Creaticca Creative Agency</a>-->
+        </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#service">Services</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024  M/S. TITHY ENTERPRISE. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
   </body>
 </html>
