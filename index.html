@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>M/S. TITHY ENTERPRISE</title>
-    <link rel="icon" href="assets/MS. TITHY ENTERPRISE.png" type="image/x-icon">
+    <link rel="icon" href="assets/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
@@ -14,6 +14,7 @@
       <div class="logo">M/S. TITHY ENTERPRISE</div>
       <div>
         <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
           <li><a href="#about">About Us</a></li>
           <li><a href="#service">Services</a></li>
           <li><a href="#contact">Contact Us</a></li>
@@ -29,15 +30,16 @@
           <span></span>
         </div>
         <div class="menu-links">
+          <li><a href="#home" onclick="toggleMenu()">Home</a></li>
           <li><a href="#about" onclick="toggleMenu()">About Us</a></li>
           <li><a href="#service" onclick="toggleMenu()">Services</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact Us</a></li>
         </div>
       </div>
     </nav>
-    <section id="profile">
+    <section id="home">
       <div class="section__pic-container">
-        <img src="./assets/MS. TITHY ENTERPRISE.png" alt="M/S. TITHY ENTERPRISE"/>
+        <img src="./assets/logo.png" alt="M/S. TITHY ENTERPRISE"/>
       </div>
       <div class="section__text">
         <h1 class="title">M/S. TITHY ENTERPRISE</h1>
@@ -50,13 +52,13 @@
       </div>
     </section>
     
-    <section id="experience">
+    <section id="about">
       <p class="section__text__p1">Get to Know More</p>
       <h1 class="title">About Us</h1>
-      <div class="experience-details-container">
+      <div class="about-details-container">
         <div class="about-containers">
           <div class="details-container">
-            <h2 class="experience-sub-title">Our Company</h2>
+            <h2 class="about-sub-title">Our Company</h2>
             <div class="article-container">
                 <div class="text-container">
                     <p style="text-align: justify; color: black;">Established over 30 years ago, M/S. TITHY ENTERPRISE is a leading player in the construction and supplies industry. With a strong track record serving both national and multinational companies, we deliver quality, reliability, and innovation in every project. Partner with us for unmatched expertise and a commitment to excellence.</p>
@@ -64,12 +66,12 @@
             </div>
           </div>
           <div class="details-container">
-            <h2 class="experience-sub-title">Our Details</h2>
+            <h2 class="about-sub-title">Our Details</h2>
             <div class="article-container">
               <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  alt="about icon"
                   class="icon"
                 />
                 <div>
@@ -80,7 +82,7 @@
               <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  alt="about icon"
                   class="icon"
                 />
                 <div>
@@ -91,7 +93,7 @@
               <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  alt="about icon"
                   class="icon"
                 />
                 <div>
@@ -102,7 +104,7 @@
               <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  alt="about icon"
                   class="icon"
                 />
                 <div>
@@ -118,17 +120,17 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#projects'"
+        onclick="location.href='./#service'"
       />
     </section>
     
-    <section id="experience">
+    <section id="service">
       <p class="section__text__p1">Get to Know More</p>
       <h1 class="title">Services</h1>
-      <div class="experience-details-container">
+      <div class="about-details-container">
         <div class="about-containers">
           <div class="details-container">
-            <h2 class="experience-sub-title">Offered Services</h2>
+            <h2 class="about-sub-title">Offered Services</h2>
             <div class="article-container">
                 <div class="text-container">
                     <p style="text-align: justify; color: black;">M/S. TITHY ENTERPRISE offers a diverse range of services to meet your construction and supply needs. From all types of construction works to comprehensive supplier solutions, including mobile applications, painting, interior design, and dress supply, we provide unparalleled expertise and reliability. Partner with us for all-encompassing solutions tailored to your requirements.</p>
@@ -136,12 +138,12 @@
             </div>
           </div>
           <div class="details-container">
-            <h2 class="experience-sub-title">Enlisted Companies</h2>
+            <h2 class="about-sub-title">Enlisted Companies</h2>
             <div class="article-container">
               <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  alt="about icon"
                   class="icon"
                 />
                 <div>
@@ -152,7 +154,7 @@
               <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  alt="about icon"
                   class="icon"
                 />
                 <div>
@@ -163,7 +165,7 @@
               <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  alt="about icon"
                   class="icon"
                 />
                 <div>
@@ -174,7 +176,7 @@
               <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  alt="about icon"
                   class="icon"
                 />
                 <div>
@@ -190,7 +192,7 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#projects'"
+        onclick="location.href='./#contact'"
       />
     </section>
     
@@ -211,19 +213,31 @@
         <div class="contact-info-container">
           <img
             src="./assets/phone.png"
-            alt="Email icon"
+            alt="Phone icon"
             class="icon contact-icon email-icon"
           />
           <p><a href="tel:+8801711467185">01711467185</a></p>
           <!--<a href="https://www.freepik.com/icons/phone">Icon by Creaticca Creative Agency</a>-->
         </div>
         </div>
+        <div class="contact-info-upper-container" class="up">
+          <div class="contact-info-container">
+            <img
+              src="./assets/map.png"
+              alt="Map icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="https://www.google.com/maps/search/House%23286,+Kunia+Targach,+Gacha,+NU,+Gazipur/@23.9489644,90.3786672,15.9z?entry=ttu">House#286, Kunia Targach, Gacha, NU, Gazipur</a></p>
+            <!--<a href="https://www.freepik.com/icons/map">Icon by Creaticca Creative Agency</a>-->
+          </div>
+          </div>
       </div>
-    </section>
+    </section><br><br>
     <footer>
       <nav>
         <div class="nav-links-container">
           <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
           <li><a href="#about">About Us</a></li>
           <li><a href="#service">Services</a></li>
           <li><a href="#contact">Contact Us</a></li>

@@ -121,8 +121,10 @@ a:hover {
 
 .menu-links.open {
   max-height: 300px;
+  min-width: 180px;
   border-radius: 15px;
   border: 1px solid;
+  margin-top: 20px;
 }
 
 .hamburger-icon.open span:first-child {
@@ -163,9 +165,9 @@ section {
   display: flex;
 }
 
-/* PROFILE SECTION */
+/* home SECTION */
 
-#profile {
+#home {
   display: flex;
   justify-content: center;
   gap: 5rem;
@@ -317,20 +319,20 @@ section {
   margin: auto 0;
 }
 
-/* EXPERIENCE SECTION */
+/* about SECTION */
 
-#experience {
+#service {
   position: relative;
 }
 
-.experience-sub-title {
+.about-sub-title {
   color: rgb(85, 85, 85);
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
 }
 
-.experience-details-container {
+.about-details-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
